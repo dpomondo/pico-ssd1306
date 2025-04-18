@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(PICO_SDK_PATH "/home/dpoyesac/Projects/pico/pico-sdk")
-# include(pico_sdk_import.cmake)
+include(pico_sdk_import.cmake)
 
 project(pico-ssd1306 C CXX ASM)
 
